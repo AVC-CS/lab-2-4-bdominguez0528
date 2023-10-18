@@ -7,7 +7,7 @@ def main():
     secondP = original_str.find('P', 1)
     sub2 = original_str[secondP:]
     sub1 = original_str[:secondP-1]
-    merged_str = sub1 + " " + sub2
+    merged_str = sub2 + " " + sub1
     print(sub2)
     print(sub1)
     print(merged_str)
